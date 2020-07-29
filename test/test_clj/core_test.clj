@@ -9,5 +9,3 @@
 (deftest ema-test
   (testing "Exponential moving average test"
     (is (= (ema 5 [5 1 4 3 9 21]) [5 11/3 34/9 95/27 433/81 2567/243]))))
-
-(ema-test)
